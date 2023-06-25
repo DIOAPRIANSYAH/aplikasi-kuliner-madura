@@ -191,7 +191,7 @@ In the app, you can switch between the theme colors in the theme switching inter
 
 Login Page | Register Page
 ---|---
-<img width="200" alt="018" src=""> | <img width="200" alt="018" src="">
+<img width="200" alt="018" src=""> | <img width="200" alt="018" src="docs\screenshoot_project\3.jpg">
 
 ### Bottom Bar Home Menu
 
