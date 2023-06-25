@@ -130,7 +130,7 @@ The project directory structure is as follows:
 └── README.md
 
 ```
-## API References
+## 🛠️ API References
 
 | Nama          | Url       | Description                       |
 | :--------     | :------- | :-------------------------------- |
@@ -194,7 +194,7 @@ Home Page | Detail Food Page
 
 API Foods Page | Detail API Foods Page 
 ---|---
-<img width="200" alt="018" src="docs\screenshoot_project\images\6.jpg"> | <img width="200" alt="018" src="docs\screenshoot_project\images\7.jpg">
+<img width="200" alt="018" src="docs\screenshoot_project\gif\api.gif"> | <img width="200" alt="018" src="docs\screenshoot_project\images\7.jpg">
 
 ### Bottom Bar CRUD Menu
 
