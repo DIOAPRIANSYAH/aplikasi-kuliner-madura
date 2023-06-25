@@ -1,10 +1,10 @@
 
-# 📱Aplikasi Edukasi Kuliner Madura
+# 📱 Maduras's Culinary Application
 
 An application that can be accessed by the public to get to know Madurese culinary dishes that are rarely known by people from outside Madura. With this application, it is hoped that it will become an educational medium for various kinds of culinary arts, culinary history and procedures for cooking Madura culinary arts for everyone that can be accessed anywhere and anytime.
 
 
-## 👤 Tentang Saya
+## 👤 About Me
 I am Dio Apriansyah, a student at the State Polytechnic of Malang who is carrying out the Semester 4 Mobile Programming UAS project in the DIII-Informatics Management Study Program out of main campus (PSDKU) in Pamekasan, East Java.
 
 
@@ -49,7 +49,7 @@ Running Project
 - Dynamic CRUD by sqllite
 - Automation Corausel at home page
 - Showing food card with vertical and horizontal listview
-- Pop-up when would to delete food and logout
+- Pop-up when user would to delete food and logout
 - Attach an image through input assets image name
 
 ## 🖥️ Technologies Used
