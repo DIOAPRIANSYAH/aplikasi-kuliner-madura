@@ -165,7 +165,7 @@ Google Sign In | Email and Password Auth
 <img width="200" alt="018" src="docs\screenshoot_project\gif\login.gif"> | <img width="200" alt="018" src="docs\screenshoot_project\gif\register.gif">
 
 it'll prove as the screenshoot below :
-Drawer Slider |  
+Users Authentications on Firebase |  
 ---|
 <img width="600" alt="018" src="docs\screenshoot_project\images\16.jpg"> | 
 
