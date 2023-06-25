@@ -158,28 +158,14 @@ Future<void> fetchMeals() async {
 ```
 
 ## 👩‍💻 Introduction to the Users
+I'm provide another ways to login beside of google sign in. I have make register form and users should to fill it comprehensively. Then, it'll save direictly on my own firebase account.
 
-[Source of inspiration](https://dribbble.com/shots/3812962-iPhone-X-Todo-Concept)
-
-
-> “One Day list ”
-is a small, simple and beautiful app，
-It can help you keep track of your daily plans.
-If you happen to have the habit of writing a mission plan, then it must be perfect for you.
-
-For users and developers, I will introduce them separately
-
-Before we start, you can take a look at the demo:
-
-
-<img width="200" alt="018" src="https://user-images.githubusercontent.com/30992818/63140875-f80da200-c015-11e9-8b14-60d6725620f1.gif"/>
-## Introduction to the user
+Google Sign In | Email and Password Auth 
+---|---
+<img width="200" alt="018" src="docs\screenshoot_project\gif\login.gif"> | <img width="200" alt="018" src="docs\screenshoot_project\gif\register.gif">
 
 
 ### Interface Application
-
-
-In the app, you can switch between the theme colors in the theme switching interface.The app comes with six default themes, which are the color combinations I've chosen over many attempts. You can also choose a custom theme color.
 
 ### Landing Pages
 
