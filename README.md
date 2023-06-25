@@ -185,46 +185,46 @@ In the app, you can switch between the theme colors in the theme switching inter
 
 | Splashscreen | 
 | :-------- | 
-| <img width="200" alt="018" src="docs\screenshoot_project\1.jpg"> |  
+| <img width="200" alt="018" src="docs\screenshoot_project\images\1.jpg"> |  
 
 ### After Landing Pages
 
 Login Page | Register Page
 ---|---
-<img width="200" alt="018" src="docs\screenshoot_project\2.jpg"> | <img width="200" alt="018" src="docs\screenshoot_project\3.jpg">
+<img width="200" alt="018" src="docs\screenshoot_project\images\2.jpg"> | <img width="200" alt="018" src="docs\screenshoot_project\images\3.jpg">
 
 ### Bottom Bar Home Menu
 
 Home Page | Detail Food Page 
 ---|---
-<img width="200" alt="018" src=""> | <img width="200" alt="018" src="">
+<img width="200" alt="018" src="docs\screenshoot_project\gif\home.gif"> | <img width="200" alt="018" src="docs\screenshoot_project\images\5.jpg">
 
 ### Bottom Bar API Food Menu
 
 API Foods Page | Detail API Foods Page 
 ---|---
-<img width="200" alt="018" src=""> | <img width="200" alt="018" src="">
+<img width="200" alt="018" src="docs\screenshoot_project\images\6.jpg"> | <img width="200" alt="018" src="docs\screenshoot_project\images\7.jpg">
 
 ### Bottom Bar CRUD Menu
 
 Add Foods Page | Update Foods Page | Show Foods Page 
 ---|---|---
-<img width="200" alt="018" src=""> | <img width="200" alt="018" src=""> | <img width="200" alt="018" src="">
+<img width="200" alt="018" src="docs\screenshoot_project\images\8.jpg"> | <img width="200" alt="018" src="docs\screenshoot_project\images\9.jpg"> | <img width="200" alt="018" src="docs\screenshoot_project\images\10.jpg">
 
 ### Bottom Bar Contact Menu
 
 Profil Visitor Page | Detail Profil Visitor Page 
 ---|---
-<img width="200" alt="018" src=""> | <img width="200" alt="018" src="">
+<img width="200" alt="018" src="docs\screenshoot_project\gif\profil.gif"> | <img width="200" alt="018" src="docs\screenshoot_project\images\12.jpg">
 
 ### Bottom Bar Logout Menu
 
 Logout Page | Alert Logout Page 
 ---|---
-<img width="200" alt="018" src=""> | <img width="200" alt="018" src="">
+<img width="200" alt="018" src="docs\screenshoot_project\gif\logout.gif"> | <img width="200" alt="018" src="docs\screenshoot_project\images\14.jpg">
 
 ### Button Drawer
 
 Drawer Slider |  
 ---|
-<img width="200" alt="018" src=""> | 
+<img width="200" alt="018" src="docs\screenshoot_project\gif\drawer.gif"> | 
