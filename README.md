@@ -14,10 +14,15 @@ I am Dio Apriansyah, a student at the State Polytechnic of Malang who is carryin
 Clone the project and paste on terminal from directory project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://link-to-project(https://github.com/DIOAPRIANSYAH/aplikasi-kuliner-madura)
+```
+Open terminal IDE to move projet patch
+
+```bash
+  cd src/flutter_uas
 ```
 
-Open terminal IDE to install all dependencies
+Then, install all dependencies
 
 ```bash
   flutter pub get
@@ -186,7 +191,7 @@ In the app, you can switch between the theme colors in the theme switching inter
 
 Login Page | Register Page
 ---|---
-<img width="200" alt="018" src=""> | <img width="200" alt="018" src="">
+<img width="200" alt="018" src=""> | <img width="200" alt="018" src="docs\screenshoot_project\3.jpg">
 
 ### Bottom Bar Home Menu
 
