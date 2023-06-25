@@ -138,7 +138,7 @@ The project directory structure is as follows:
 
 #### Get all items 
 
-```http
+```
 Future<void> fetchMeals() async {
     final response = await http.get(
         Uri.parse('https://www.themealdb.com/api/json/v1/1/search.php?s='));
@@ -155,6 +155,48 @@ Future<void> fetchMeals() async {
       throw Exception('Failed to load meals');
     }
   }
+```
+
+## 📃 Map List Data
+```
+class ContactInfo {
+  const ContactInfo({
+    required this.avatarAsset,
+    required this.name,
+    required this.email,
+    required this.alamat,
+    required this.prodi,
+    required this.jurusan,
+    required this.hobi,
+    required this.kampus,
+  });
+
+  final String avatarAsset;
+  final String name;
+  final String email;
+  final String alamat;
+  final String prodi;
+  final String jurusan;
+  final String hobi;
+  final String kampus;
+}
+
+```
+```
+class ContactInfo {
+const contactInfos = [
+  ContactInfo(
+    avatarAsset: 'assets/avatar/ipong.jpeg',
+    name: 'ABG Ghafur',
+    email: 'ipong@gmail.com',
+    alamat: 'Sampang, Jawa Timur',
+    prodi: 'D-III Manajemen Informatika',
+    jurusan: 'Teknologi Informasi',
+    kampus: 'Politeknik Negeri Malang',
+    hobi: 'N/A',
+  ),
+  
+];
 ```
 
 ## 👩‍💻 Introduction to the Users
