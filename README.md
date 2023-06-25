@@ -14,10 +14,15 @@ I am Dio Apriansyah, a student at the State Polytechnic of Malang who is carryin
 Clone the project and paste on terminal from directory project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://link-to-project(https://github.com/DIOAPRIANSYAH/aplikasi-kuliner-madura)
+```
+Open terminal IDE to move projet patch
+
+```bash
+  cd src/flutter_uas
 ```
 
-Open terminal IDE to install all dependencies
+Then, install all dependencies
 
 ```bash
   flutter pub get
