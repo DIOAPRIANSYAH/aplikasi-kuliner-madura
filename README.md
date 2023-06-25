@@ -228,3 +228,11 @@ Logout Page | Alert Logout Page
 Drawer Slider |  
 ---|
 <img width="200" alt="018" src="docs\screenshoot_project\gif\drawer.gif"> | 
+
+
+### Animations
+I made an animation to give luck on my application and let the user get the best experience when surfing it. To looks dynamic I'm add several animations such text, images, button and routes transitions.
+
+Waves Text & Appear Image | Button Approval | Route Transitions 
+---|---|---
+<img width="200" alt="018" src="docs\screenshoot_project\gif\splash.gif"> | <img width="200" alt="018" src="docs\screenshoot_project\gif\signin.gif"> | <img width="200" alt="018" src="docs\screenshoot_project\gif\route.gif">
