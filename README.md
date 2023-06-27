@@ -57,6 +57,7 @@ Running Project
 - Flutter SDK
 - Dart programming language
 - Visual Studio Code, Android Studio
+
 ## 🕵️‍♀️ Introduction to the Developer
 
 > If you have a strong interest in Flutter and have been slow to act, then don't hesitate, hurry up! This project is perfect for getting started with Flutter.
@@ -158,6 +159,9 @@ Future<void> fetchMeals() async {
 ```
 
 ## 📃 Map List Data
+
+Create a variable do you need such name, email, alamat, prodi, jurusan, hobi and kampus.
+
 ```
 class ContactInfo {
   const ContactInfo({
@@ -182,6 +186,9 @@ class ContactInfo {
 }
 
 ```
+
+Then, call and fill the variable into arrays
+
 ```
 class ContactInfo {
 const contactInfos = [
@@ -197,6 +204,94 @@ const contactInfos = [
   ),
   
 ];
+```
+
+Initialized ContactInfo as required
+
+```
+class ContactListItem extends StatefulWidget {
+  const ContactListItem({
+    required this.contactInfo,
+  });
+
+  final ContactInfo contactInfo;
+
+  @override
+  _ContactListItemState createState() => _ContactListItemState();
+}
+```
+
+Show avatar, name and email by syntax like this :
+
+```
+class _ContactListItemState extends State<ContactListItem> {
+  final _avatarKey = GlobalKey();
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8.0),
+      child: Container(
+        decoration: BoxDecoration(
+          border: Border.all(color: Colors.grey),
+          borderRadius: BorderRadius.circular(8.0),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.white.withOpacity(0.5),
+              spreadRadius: 2,
+              blurRadius: 5,
+              offset: Offset(0, 2), // mengatur bayangan ke bawah
+            ),
+          ],
+        ),
+        child: ListTile(
+          leading: SizedBox(
+            key: _avatarKey,
+            width: 50,
+            height: 50,
+            child: AvatarHero(contactInfo: widget.contactInfo),
+          ),
+          title: Text(widget.contactInfo.name),
+          subtitle: Text(widget.contactInfo.email),
+          trailing: Padding(
+            padding: const EdgeInsets.only(right: 8.0),
+            child: Tab(
+              child: LoadingBouncingGrid.square(
+                size: 25,
+                backgroundColor: Colors.blue,
+              ),
+            ),
+          ),
+          onTap: () {
+            Navigator.push(
+              context,
+              CircularClipRoute<void>(
+                builder: (context) =>
+                    ContactDetailPage(contactInfo: widget.contactInfo),
+                expandFrom: _avatarKey.currentContext!,
+                curve: Curves.fastOutSlowIn,
+                reverseCurve: Curves.fastOutSlowIn.flipped,
+                opacity: ConstantTween(1),
+                transitionDuration: const Duration(seconds: 1),
+              ),
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+}
+```
+
+Then, class name inside of looping to show all data
+
+```
+body: ListView.builder(
+        itemBuilder: (context, i) =>
+            ContactListItem(contactInfo: contactInfos[i]),
+        itemCount: contactInfos.length,
+      ),
 ```
 
 ## 👩‍💻 Introduction to the Users
