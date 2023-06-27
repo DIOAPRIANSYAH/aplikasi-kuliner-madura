@@ -294,6 +294,10 @@ body: ListView.builder(
       ),
 ```
 
+Profil Visitor Page | Detail Profil Visitor Page 
+---|---
+<img width="200" alt="018" src="docs\screenshoot_project\gif\profil.gif"> | <img width="200" alt="018" src="docs\screenshoot_project\images\12.jpg">
+
 ## 👩‍💻 Introduction to the Users
 I'm provide another ways to login beside of google sign in. I have make register form and users should to fill it comprehensively. Then, it'll save direictly on my own firebase account.
 
